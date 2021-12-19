@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <style>
+            h1{
+               color:rgb(0, 0, 0);
+              text-decoration:overline;
+            }
+            body{
+                 background-color:rgba(222, 238, 179, 0.486);
+                }
+            table{
+                 background:rgb(245, 245, 180);
+                 width: 900;
+                 height: 500;
+                }
+
+        </style>
+    </head>
+    <body>
+        <center>
+            <br/>
+        <h1>STUDENT REGISTRATION PAGE</h1>
+        <form name="forms" method="insert.php" action="post">
+        <table>
+            <tr>
+                <td><B>NAME</B></td>
+                <td>
+                    <input type="text" size="30" name="name">
+                </td>
+            </tr>
+            <tr>
+                <td><B>EMAIL</B></td>
+                <td>
+                    <input type="email" size="30" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td><B>PHONE NUMBER</B></td>
+                <td>
+                    <input type="number" size="12" name="number">
+                </td>
+                <td>
+                    <br/>
+                </td>
+                <td>
+           
+            </tr>
+            <tr>
+                <td><B>GENDER</B></td>
+                <td><input type="radio" name="gender" value="m" >Male
+                <input type="radio" name="gender" value="f" >Female</td>
+            </tr>
+            <tr>
+                <td><B>DATE OF BIRTH</B></td>
+                <td><input type="date" name="date"</td>
+            </tr>
+            <tr CELLPADDING="10">
+                <td><B>BRANCH</B></td>
+                <TD>
+                <select NAME="branch">
+                    <OPTION>----</OPTION>
+                    <option>CSE</option>
+                    <option>CSM</option>
+                    <option>CSD</option>
+                    <option>CSB</option>
+                    <option>AIML</option>
+                    <option>IT</option>
+                    <option>ECE</option>
+                    <option>IOT</option>
+                    <option>EEE</option>
+                    <option>ME</option>
+                    <option>MIN</option>
+                    <option>PT</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td><B>ADDRESS</B></td>
+                <td ><textarea rows="5" cols="15"></textarea></td>
+               
+            </tr>
+        </form>
+    </table>
+            <tr>
+                <td align="center">
+                    <input type="submit" name="submit" size=>
+                </td>
+                <td align="left">
+                    <input type="reset" name="reset">
+                </td>
+
+            </tr>
+    </center>
+    </body>
+</html>
